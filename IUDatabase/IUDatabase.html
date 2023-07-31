@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+    <title>IUDatabaseProject</title>
+    <meta charset="UTF-8">
+</head>
+<html>
+    <body>
+        <h1>IU Online Teaching Interest Form</h1>
+        <form action="process-IUDatabase.php" method="post">
+            <label for="f_name">First Name</label>
+            <input type="text" id="f_name" name="f_name">
+
+            <br>
+
+            <label for="m_name">Middle Name</label>
+            <input type="text" id="m_name" name="m_name">
+
+            <br>
+
+            <label for="l_name">Last Name</label>
+            <input type="text" id="l_name" name="l_name">
+            <br>
+            <br>
+
+            <label for="Highest Degree Held">Highest Degree Held</label>
+            <br>
+            <select id="Highest Degree Held" name="HDH">
+                <option>No College Degree</option>
+                <option>Bachelor's Only</option>
+                <option>Master's</option>
+                <option>Doctorate</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="What is your employment status with IU?">What is your employment status with IU?</label>
+            <br>
+            <select id="What is your employment status with IU?" name="IUES">
+                <option>Former IU Employee</option>
+                <option>Current IU Employee</option>
+                <option>Never Employed by IU</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="IU_ID">IU ID</label>
+            <input type="text" maxlength="10" id="IU_ID" name="IU_ID">
+
+            <br>
+            <br>
+
+            <label for="Teaching Experience">Teaching Experience</label>
+            <br>
+            <select id="Teaching Experience" name="TE">
+                <option>None</option>
+                <option>Less than 1 Year</option>
+                <option>1 to 5 Years</option>
+                <option>More than 5 Years</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="Have you taught online?">Have you taught online?</label>
+            <br>
+            <select id="Have you taught online?" name="TO">
+                <option>Yes</option>
+                <option selected>No</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="Have you taught undergraduate courses?">Have you taught undergraduate courses?</label>
+            <br>
+            <select id="Have you taught undergraduate courses?" name="UC">
+                <option>Yes</option>
+                <option selected>No</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="Have you taught graduate courses?">Have you taught graduate courses?</label>
+            <br>
+            <select id="Have you taught graduate courses?" name="GC">
+                <option>Yes</option>
+                <option selected>No</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="What degree program would you like to teach for?">What degree program would you like to teach for?</label>
+            <br>
+            <select id="What degree program would you like to teach for?" name="DP">
+                <option>Accounting</option>
+                <option>Actuarial Science</option>
+                <option>Biology</option>
+                <option>Business Administration, BS</option>
+                <option>Chemistry</option>
+                <option>Communication</option>
+                <option>Composition</option>
+                <option>Criminal Justice</option>
+                <option>Data Science</option>
+                <option>Digital Media and Storytelling</option>
+                <option>Educational Leadership</option>
+                <option>English & Literature</option>
+                <option>French</option>
+                <option>German</option>
+                <option>Health Sciences</option>
+                <option>History</option>
+                <option>Informatics</option>
+                <option>Management</option>
+                <option>Mathematics</option>
+                <option>Medical Imaging Technology</option>
+                <option>Political Science</option>
+                <option>Spanish</option>
+                <option>Strategic Finance</option>
+                <option>Sustainability</option>
+                <option>Teaching, Learning, and Curriculum</option>
+                <option>Value</option>
+            </select>
+
+            <br>
+            <br>
+            
+            <label for="f_upload">CV Upload</label>
+            <input type="file" id="f_upload" name="CV">
+
+            <br>
+            <br>
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
